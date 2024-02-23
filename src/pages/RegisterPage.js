@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
@@ -36,33 +37,59 @@ const RegisterPage = () => {
             placeholder="Name"
             onChange={(event) => setName(event.target.value)}
           />
+=======
+import React from "react";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+
+const RegisterPage = () => {
+  return (
+    <div className="display-center">
+      <Form className="login-box">
+        <h1>회원가입</h1>
+        <Form.Group className="mb-3" controlId="formName">
+          <Form.Label>Name</Form.Label>
+          <Form.Control type="string" placeholder="Name" />
+>>>>>>> 4b7f0bc (reconnecting the old repository)
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
+<<<<<<< HEAD
           <Form.Control
             type="email"
             placeholder="Enter email"
             onChange={(event) => setEmail(event.target.value)}
           />
+=======
+          <Form.Control type="email" placeholder="Enter email" />
+>>>>>>> 4b7f0bc (reconnecting the old repository)
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
+<<<<<<< HEAD
           <Form.Control
             type="password"
             placeholder="Password"
             onChange={(event) => setPassword(event.target.value)}
           />
+=======
+          <Form.Control type="password" placeholder="Password" />
+>>>>>>> 4b7f0bc (reconnecting the old repository)
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>re-enter the password</Form.Label>
+<<<<<<< HEAD
           <Form.Control
             type="password"
             placeholder="re-enter the password"
             onChange={(event) => setSecondPassword(event.target.value)}
           />
+=======
+          <Form.Control type="password" placeholder="re-enter the password" />
+>>>>>>> 4b7f0bc (reconnecting the old repository)
         </Form.Group>
 
         <Button className="button-primary" type="submit">

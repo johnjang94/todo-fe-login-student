@@ -4,7 +4,10 @@ const api = axios.create({
   baseURL: `${process.env.REACT_APP_BACKEND_URL}/api`,
   headers: {
     "Content-Type": "application/json",
+<<<<<<< HEAD
     authorization: "Bearer " + localStorage.getItem("token"),
+=======
+>>>>>>> 4b7f0bc (reconnecting the old repository)
   },
 });
 /**
