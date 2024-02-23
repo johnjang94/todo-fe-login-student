@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -11,18 +10,6 @@ root.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>
-=======
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
->>>>>>> 4b7f0bc (reconnecting the old repository)
   </React.StrictMode>
 );
 
